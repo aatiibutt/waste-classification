@@ -8,7 +8,7 @@
 
 ## Data Augmentation
 
-To add more diversity in dataset, we have performed four types of data augmentations including,
+To add more diversity in dataset, we have performed three types of data augmentations including,
 
 - Gaussian Blur
 - Horizontal Flip
@@ -18,10 +18,10 @@ You can use the **Augmentation.ipynb** in **Train_Notebooks** to perform augment
 
 ## Training
 
-To this end, three state-of-the-art CNNs i.e. **GoogleNet** , **Resnet-152**, **VGG**, **ResNext** and the proposed architecture **ResNext-Plus** are employed to perform classification. It is important to mention here that, pre-trained CNNs are downloaded, and trained through transfer learning to achieve effective results. All the networks are available in above-folder named **Trained Notebooks**. All the trained models are available in above-folder **models**.
+To this end, three state-of-the-art CNNs i.e. **GoogleNet** , **Resnet-50**, **VGG**, and **ResNext** are employed to perform classification. Based on the best performed, we selected **ResNext**, and added a new classification block has been added in the basis of network. It is important to mention here that, pre-trained CNNs are downloaded, and trained through transfer learning to achieve effective results. All the networks are available in above-folder named **Trained Notebooks**. All the trained models are available in above-folder **models**.
 
 ## Results
-The experiments are performed on both i.e. the augmented and non augmented datasets to analyse the difference through adaptive and static learning rate. The experiments showed that Resnext-plus achieved better accuracy on augmented dataset with adaptive learning rate.
+The experiments are performed on both i.e. the augmented and non augmented datasets to analyse the difference through adaptive and static learning rate. The experiments showed that the modified ResNext achieved better accuracy on augmented dataset with adaptive learning rate.
 
 #### GoogleNet
 - With Adaptive Learning Rate on non-Augmented Dataset
