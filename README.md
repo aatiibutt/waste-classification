@@ -17,47 +17,61 @@ You can use the **Augmentation.ipynb** in **Train_Notebooks** to perform augment
 
 ## Training
 
-To this end, three state-of-the-art CNNs i.e. **GoogleNet** , **Resnet-152**, **VGG** and **ResNext** are employed to perform classification. It is important to mention here that, pre-trained CNNs are downloaded, and trained through transfer learning to achieve effective results. All the networks are available in above-folder named **Trained Notebooks**. All the trained models are available in above-folder **models**.
+To this end, three state-of-the-art CNNs i.e. **GoogleNet** , **Resnet-152**, **VGG**, **ResNext** and the proposed architecture **ResNext-Plus** are employed to perform classification. It is important to mention here that, pre-trained CNNs are downloaded, and trained through transfer learning to achieve effective results. All the networks are available in above-folder named **Trained Notebooks**. All the trained models are available in above-folder **models**.
 
 ## Results
-The experiments are performed on both i.e. the base and augmented datasets to analyse the difference through adaptive and static learning rate. The experiments showed that Resnext achieved better accuracy on augmented dataset with adaptive learning rate.
+The experiments are performed on both i.e. the augmented and non augmented datasets to analyse the difference through adaptive and static learning rate. The experiments showed that Resnext-plus achieved better accuracy on augmented dataset with adaptive learning rate.
 
 #### GoogleNet
 - With Adaptive Learning Rate on non-Augmented Dataset
 
-![alt text](https://github.com/aatiibutt/CS867-Assignment3/blob/main/graphs/Alex_Aug_AL.PNG?raw=true)
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/google-non.PNG?raw=true)
 
 - With Adaptive Learning Rate on Augmented Dataset
 
-
-![alt text](https://github.com/aatiibutt/CS867-Assignment3/blob/main/graphs/Alex_Aug_AL.PNG?raw=true)
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/google-aug.PNG?raw=true)
 
 #### Resnet
 
 - With Adaptive Learning Rate on non-Augmented Dataset
 
-![alt text](https://github.com/aatiibutt/CS867-Assignment3/blob/main/graphs/Res_Aug_AL.PNG?raw=true)
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/res-non.PNG?raw=true)
 
 - With Adaptive Learning Rate on Augmented Dataset
 
-![alt text](https://github.com/aatiibutt/CS867-Assignment3/blob/main/graphs/Res_Aug_AL.PNG?raw=true)
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/res-aug.PNG?raw=true)
 
 #### VGG
 
 - With Adaptive Learning Rate on non-Augmented Dataset
 
-![alt text](https://github.com/aatiibutt/CS867-Assignment3/blob/main/graphs/VGG_Aug_AL.PNG?raw=true)
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/vgg-non.PNG?raw=true)
 
 - With Adaptive Learning Rate on Augmented Dataset
 
-![alt text](https://github.com/aatiibutt/CS867-Assignment3/blob/main/graphs/Res_Aug_AL.PNG?raw=true)
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/vgg-aug.PNG?raw=true)
 
 #### ResNext
 
 - With Adaptive Learning Rate on non-Augmented Dataset
 
-![alt text](https://github.com/aatiibutt/CS867-Assignment3/blob/main/graphs/VGG_Aug_AL.PNG?raw=true)
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/resnxt-non.PNG?raw=true)
 
 - With Adaptive Learning Rate on Augmented Dataset
 
-![alt text](https://github.com/aatiibutt/CS867-Assignment3/blob/main/graphs/Res_Aug_AL.PNG?raw=true)
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/resnxt-aug.PNG?raw=true)
+
+#### ResNext-Plus
+
+- With Adaptive Learning Rate on non-Augmented Dataset
+
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/resnxt-non.PNG?raw=true)
+
+- With Adaptive Learning Rate on Augmented Dataset
+
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/respls-aug.PNG?raw=true)
+
+### ResNext-Plus on Sencond Dataset (Thung and Yang’s)
+
+![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/resnxtpls-seconddata.PNG?raw=true)
+
