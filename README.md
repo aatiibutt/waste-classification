@@ -71,7 +71,7 @@ The experiments are performed on both i.e. the augmented and non augmented datas
 
 ![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/respls-aug.PNG?raw=true)
 
-### ResNext-Plus on Sencond Dataset (Thung and Yang’s)
+#### ResNext-Plus on Sencond Dataset (Thung and Yang’s)
 
 ![alt text](https://github.com/aatiibutt/waste-classification/blob/main/graph/resnxtpls-seconddata.PNG?raw=true)
 
