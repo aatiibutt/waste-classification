@@ -3,7 +3,8 @@
 ## Pre-Requisites
 1. Anaconda (https://www.anaconda.com/products/individual)
 2. Pytorch (https://pytorch.org/get-started/locally/)
-3. Waste Classification Dataset (https://www.kaggle.com/techsash/waste-classification-data)
+3. Waste Classification Binary Class Dataset (https://www.kaggle.com/techsash/waste-classification-data)
+4. Thung and Wang's Dataset (https://github.com/garythung/trashnet/blob/master/data/dataset-resized.zip)
 
 ## Data Augmentation
 
